@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/inputIngrediente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrediente" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar ingrediente" />
+
+    <TextView
+        android:id="@+id/txtLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:id="@+id/btnUtensilios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir a Utensilios"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSugerencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver recetas sugeridas"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
